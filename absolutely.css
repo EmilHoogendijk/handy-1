@@ -16,13 +16,21 @@ nav {
 
 }
 nav:hover {
-	background-color: white;
+	background-image: url(bar2.png);
+	color: black;
+
+}
+nav:hover a{
+
 	color: black;
 
 }
 .nv {
 	padding-left: 20px;
 	color: grey;
+}
+.nv:hover {
+	color: black;
 }
 
 
@@ -124,7 +132,7 @@ p {
 
 .dropdown:hover .dropdown-content {
     display: block;
-}
+} 
 
 .drop:hover {
    background-color: yellow;
@@ -139,6 +147,7 @@ p {
 
 .dropdown2 { 	
 	color: blue;
+	position: relative;
 
 }
 
@@ -158,9 +167,8 @@ p {
 	z-index: 1;
 	height: 50px;
 	width: 200px;
-	left: 800px;
+	left: 0px;
 }
-
 .dropdown2:hover .dropdown-content2 {
     visibility: visible;
 }
@@ -175,7 +183,6 @@ li {
 	margin: 0;
 	width: 100px;
 	height: 25px;
-	text-align: 
 	padding-top: 3px;
 
 }
